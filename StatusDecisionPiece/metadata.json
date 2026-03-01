@@ -1,0 +1,22 @@
+{
+    "name": "StatusDecisionPiece",
+    "description": "Makes a rule-based decision to determine the status of a model.",
+    "dependency": {
+        "requirements_file": "requirements_0.txt"
+    },
+    "container_resources": {
+        "requests": {
+            "cpu": 500,
+            "memory": 1024
+        },
+        "limits": {
+            "cpu": 2000,
+            "memory": 4096
+        }
+    },
+    "tags": ["status", "decision", "rule"],
+    "style": {
+        "node_label": "Status Decision",
+        "icon_class_name": "fa-solid:traffic-light"
+    }
+}
